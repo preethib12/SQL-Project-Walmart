@@ -95,7 +95,7 @@ FROM walmart_sales
 GROUP BY Month
 ORDER BY Month;
 
---Q4 Number of transactions per branch
+--Q4 Total revenue generated
 SELECT SUM(Sales) AS Total_Revenue
 FROM walmart_sales;
 
